@@ -6,7 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background: #f2f2f2;
   main {
     display: flex;
     justify-content: center;
@@ -15,33 +15,47 @@ export const Container = styled.div`
     box-shadow: 2px 2px 2px 2px gray;
     min-height: 50vh;
     min-width: 60vw;
+    background: #ffffff;
+    border: 1px solid #d1dce3;
+    border-radius: 4px;
   }
   .form {
     min-height: 100%;
     min-width: 60%;
   }
   h1 {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
+    font-family: "SourceSansPro";
+    font-size: 24px;
     line-height: 28px;
-    min-width: 50px;
-    margin: 10px auto;
+    color: #656565;
   }
   .results {
     min-width: 40%;
     min-height: 100%;
-    background-color: lightgrey;
+    background: rgba(209, 220, 227, 0.18);
+    border-radius: 4px;
   }
-  span{
-    font-size:15px;
-    color:#343b41;
-    text-align:left;
-    min-width:100%;
-    align-content:left;
+  
+  h2 {
+    font-family: "Source Sans Pro";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #3d75bb;
   }
-  h3 {
-    color: blue;
+  ul {
+    font-family: "Source Sans Pro";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    color: #5d9cec;
+    list-style: none;
+    padding-inline-start: 0;
+  }
+  hr{
+    width:80%;
   }
 `;

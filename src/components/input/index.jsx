@@ -1,11 +1,11 @@
 import { Container } from "./styles";
 
-const Input = ({ label, error, change, name, ...rest }) => {
+const Input = ({ label, span, name, ...rest }) => {
   return (
     <Container>
       <div>{label}</div>
       <input {...rest} />
-      {!!error && <p className="error">{error}</p>}
+      <span>{span}</span>
     </Container>
   );
 };
